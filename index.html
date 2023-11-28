@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div class="container">
+            <div class="navbar">
+
+                <div class="logo-container">
+
+                    <img src="./Image/LOGO.jpg" class="logo">
+
+                    <div class="logo-text">arsh</div>
+                </div>
+
+                <div class="nav-items">
+                    <div><a href="#projects">Projects</a></div>
+                    <div><a href="#skills">Skills</a></div>
+                    <div><a href="#contactme">Contact me</a></div>
+
+                </div>
+
+            </div>
+
+            <div class="hero-section">
+                <div class="absolute faded-text">Harsh Tripathi</div>
+    
+    
+                <div class="hero-section-left">
+                    <div class="hero-section-heading">Hi! Harsh</div>
+                   
+                    <div class=" hero-section-sub-heading">
+                        I am a <span class="role"></span>
+                    </div>
+    
+                    <div class="hero-setion-discription">
+                        I'm a software developer and here is my portfolio website, Her you'll 
+                        learn about my journey as a software developer
+                    </div>
+    
+    
+                    <div class="btn-pink" id="btn">Hire me</div>
+    
+    
+    
+                </div>
+    
+                <div class="hero-section-right">
+    
+                   
+                    
+                    <div class="user-image">
+                        <img src="Image/user2.jpg" alt="">
+                    </div>
+    
+    
+                </div>
+            </div>
+        </div>
+
+        <div class="project-section">
+            <h2 class="page-header">Projects</h2>
+
+            <div class="project-container">
+                <div class="project-card" id="project1">
+                    <div class="project-number project-number-right">01</div>
+                    <div class="project-content project-content-left">
+                        <div class="project-skills-container">
+
+                            <img class="project-skill" src="Image/html.png" alt="" />
+                            <img class="project-skill" src="Image/css.png" alt="" />
+                            <img class="project-skill" src="Image/javascript.png" alt="" />
+                            <img class="project-skill" src="Image/express.png" alt="" />
+                            <img class="project-skill" src="Image/nextjs1.png" alt="" />
+                            <img class="project-skill" src="Image/tailwind.png" alt="" />
+                            <img class="project-skill" src="Image/nodejs.png" alt="" />
+                            <img class="project-skill" src="Image/mongodb.png" alt="" />
+                            <img class="project-skill" src="Image/redux.png" alt="" />
+                            <img class="project-skill" src="Image/vercel.png" alt="" />
+                        </div>
+                        <h2 class="project-heading">Tint & Orange</h2>
+                        <div class="project-subHeading">Its is a car modification copany 
+                            which provide you sheets to protect your car from scratch
+                        </div>
+
+                        <div class="btn-grp">
+                            <button class="btn-pink btn-project">Read More</button>
+                            <a href="">
+                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                            </a>
+                            <a href="">
+                                <i title="Live Link" class="fa-solid fa-link icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>   
+    <script>
+        var typeData = new Typed(".role", {
+            strings: [
+                "Full Stack Developer",
+                "Web Developer",
+                "UI-Ux Designer",
+                "Backend Developer",
+                "Coder",
+            ],
+            loop: true,
+            typeSpeed: 100,
+            backSpeed: 80,
+            backDelay: 1000,
+        });
+    </script>   
+</body>
+</html>
